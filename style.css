@@ -1,0 +1,1360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans, sans-serif;
+}
+
+body,
+html,
+header,
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #0A1327;
+    padding: 2px 40px 2px 20px;
+}
+
+.navbar1 .login a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.logo img {
+    width: 110px;
+    height: 50px;
+}
+
+
+/* ---------- navbar 2 ------------ */
+
+.navbar2 {
+    width: 100%;
+    height: 146px;
+    background-image: linear-gradient(293.46deg, rgb(14, 24, 68) 0%, rgb(39, 53, 118) 98.45%);
+    margin-top: -1px;
+}
+
+.firstpart {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text {
+    margin: 0 67px 0 -72px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+#input1,
+#input2,
+#input3 {
+    padding: 17px 19px 17px 19px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    width: 196px;
+    height: 48px;
+}
+
+.freetry button {
+    padding: 15px 18px 15px 18px;
+    margin: 0 15px 0 5px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgb(78, 128, 238);
+    font-size: 14px;
+    width: 127px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.icons ul li a img {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+
+.check form {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* --------------- banner 1 ------------- */
+
+.banner1 {
+    background-image: linear-gradient(to bottom, rgba(10, 19, 39, 0.1), rgb(10, 19, 39)), url(./pictures/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 585px;
+    margin-top: -1px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.textbanner1 {
+    color: #fff;
+    margin-left: 65px;
+}
+
+.textbanner1 h6 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+#textbn2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#textbn3 {
+    color: gray;
+    margin-bottom: 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#textbn4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.main-container {
+    background: rgb(10, 19, 39);
+    width: 100%;
+    margin-top: -1px;
+}
+
+.textbanner1 button {
+    padding: 15px 90px 15px 90px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+}
+
+/* ---------- Slider 1------------ */
+
+.slidertitle1 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin: 30px 0 50px 0;
+}
+
+.slidertitle1 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+.swiper {
+    width: 100%;
+    height: 450px;
+}
+
+.swiper-wrapper {
+    padding: 0 0px 0 38px;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border: solid rgb(46, 46, 64) 4px;
+    border-radius: 4px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+}
+
+/* -------------- end of slider 1 and 2 ---------- */
+
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner2title {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin: 60px 0 30px 0;
+}
+
+/* ------- end of banner 2 ----------- */
+
+.infotext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    margin-top: 20px;
+}
+
+.info {
+    color: #fff;
+    padding: 12px 18px;
+    margin: 50px 20px 50px 0;
+    border-left: solid 4px rgb(78, 128, 238);
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+/* --------- Channels ----------- */
+
+.channels {
+    color: #fff;
+    text-align: center;
+}
+
+.channels h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin: 60px 0 30px 0;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.channels1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.channels .chan {
+    width: 136px;
+    height: 110px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 15px 10px 15px 10px;
+
+}
+
+.channels img {
+    background: #fff;
+    width: 70px;
+    height: 70px;
+}
+
+.channels1 #more {
+    display: none;
+}
+
+#myBtn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+/* ---------- Banner3 ------------ */
+
+.banner3image img {
+    margin-top: 80px;
+}
+
+.banner3text {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.banner3text p {
+    font-size: 19px;
+    margin: 20px 0 30px;
+    letter-spacing: 1px;
+}
+
+.banner3text h2 {
+    margin: 5px 0 50px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.bnr3 {
+    display: flex;
+    margin: 22px 0 22px;
+
+}
+
+.bnr3 img {
+    margin: 15px 0 15px;
+}
+
+.bnr3 p {
+    font-size: 18px;
+    margin: 16px 0 16px 15px;
+}
+
+/* ------- Slider2 ------- */
+
+.slidertitle2 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin: 30px 0 50px 0;
+}
+
+.slidertitle2 h3 {
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+
+
+/* ----- infotext2------- */
+
+
+.infotext2 {
+    text-align: center;
+}
+
+.infotext2 h2 {
+    margin: 70px 0 70px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.infotext2 .discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.infotext2 .d-items {
+    width: 180px;
+    height: 50px;
+    padding: 16px 20px;
+    margin: 0 15px 0 15px;
+    font-size: 18px;
+    background: rgb(47, 54, 71);
+    border-radius: 30px;
+
+}
+
+.infotext2 .d-items a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* -------- Footer1 Collapse Menu ------------ */
+
+.footer1 {
+    padding: 20px 120px 30px 60px;
+}
+
+.footer1 h2 {
+    color: #fff;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.collapsible {
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 23px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(68, 70, 98);
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.collapsible:after {
+    content: "\f13a";
+    font-family: "Font Awesome 6 Free";
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\f139";
+    font-family: "Font Awesome 6 Free";
+}
+
+.content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    border-bottom: 1px solid rgb(68, 70, 98);
+}
+
+.content p {
+    padding: 20px 20px 20px 0;
+}
+
+#none {
+    border: none;
+}
+
+.footer1 .help {
+    margin: 40px 0 40px 22px;
+}
+
+.footer1 .help p {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 19px;
+    word-spacing: 1px;
+}
+
+.footer1 .help p a {
+    color: rgb(78, 128, 238);
+    text-decoration: none;
+}
+
+/* -------- Footer2  ------------ */
+
+.footer2 {
+    display: flex;
+    background: rgb(45, 46, 63);
+}
+
+.footer2 div {
+    padding: 10px;
+}
+
+.footer2 div a {
+    color: rgb(164, 166, 168);
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid rgb(68, 70, 98) 1px;
+    padding-right: 5px;
+}
+
+.footer2 div a:hover {
+    color: #fff;
+}
+
+.footer2 img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.footer2 a i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.footer2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer2 ul li a i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* ----------- Responsive ------------ */
+
+@media screen and (max-width: 2560px) {
+
+    .banner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textbanner1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1770px) {
+
+    .banner1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .textbanner1 {
+        margin-left: 65px;
+        text-align: start;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .navbar2 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .firstpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+        margin: auto;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    .text br {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    #input1,
+    #input2,
+    #input3 {
+        margin: 15px 0 15px 0;
+        width: 50%;
+    }
+
+    .check form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .check form label br {
+        display: none;
+    }
+
+    .freetry {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .freetry button {
+        margin: 10px 0 10px 0;
+        font-size: 14px;
+        width: 30%;
+    }
+
+    .icons ul li a img {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    /* -------- banner1 --------- */
+
+    .banner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textbanner1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* -------- slider1 --------- */
+
+    .swiper-slide img {
+
+        width: 140%;
+
+    }
+
+    /* -------- banner2 --------- */
+
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner2 img {
+        width: 100%;
+    }
+
+    /* -------- infotext --------- */
+
+    .infotext {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        margin: 20px 0 0 40px;
+        width: 100%;
+    }
+
+    .info {
+        width: 50%;
+        margin: 15px 0 15px 0;
+    }
+
+    /* -------- channels --------- */
+
+    .channels1 #more {
+        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #more .chan {
+        width: 10%;
+        height: 110px;
+    }
+
+    .channels .chan {
+        width: 10%;
+        height: 110px;
+    }
+
+    /* -------- banner3 --------- */
+
+    .banner3image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner3image img {
+        margin-top: 80px;
+        width: 90%;
+
+    }
+
+    /* -------- infotext2 --------- */
+
+    .infotext2 .discover {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .infotext2 .d-items {
+        width: 15%;
+        padding: 16px 20px;
+        margin: 20px 5px 20px 5px;
+
+    }
+
+    /* -------- footer1 --------- */
+
+    .footer1 {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar1 .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .navbar1 .login {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100px;
+    }
+
+    .navbar2 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .firstpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+        margin: auto;
+        margin: 20px;
+    }
+
+    .text br {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #input1,
+    #input2,
+    #input3 {
+        margin: 15px 0 15px 0;
+        width: 90%;
+    }
+
+    .check form {
+        width: 90%;
+        margin: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .check form label br {
+        display: none;
+    }
+
+    .freetry {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+
+    .freetry button {
+        margin: 10px 0 10px 0;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .icons ul li a img {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    /* -------- banner1 --------- */
+
+    .banner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textbanner1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* -------- slider1 --------- */
+
+    .swiper-slide img {
+
+        width: 140%;
+
+    }
+
+    /* -------- banner2 --------- */
+
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner2 img {
+        width: 100%;
+    }
+
+    /* -------- infotext --------- */
+
+    .infotext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0 20px 10px;
+    }
+
+    .info {
+        padding: 0;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    /* -------- channels --------- */
+
+    .channels1 #more {
+        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #more .chan {
+        width: 10%;
+        height: 110px;
+    }
+
+    .channels .chan {
+        width: 10%;
+        height: 110px;
+    }
+
+    /* -------- banner3 --------- */
+
+    .banner3image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner3image img {
+        margin-top: 80px;
+        width: 90%;
+
+    }
+
+    /* -------- infotext2 --------- */
+
+    .infotext2 .discover {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .infotext2 .d-items {
+        padding: 16px 20px;
+        margin: 20px 15px 20px 15px;
+        width: 30%;
+
+    }
+
+    /* -------- footer1 --------- */
+
+    .footer1 {
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* -------- footer2 --------- */
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 div a {
+        border: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar1 .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .navbar1 .login {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100px;
+    }
+
+    .navbar2 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .firstpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+        margin: auto;
+        margin: 20px;
+    }
+
+    .text br {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #input1,
+    #input2,
+    #input3 {
+        margin: 15px 0 15px 0;
+        width: 90%;
+    }
+
+    .check form {
+        width: 90%;
+        margin: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .check form label br {
+        display: none;
+    }
+
+    .freetry {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .freetry button {
+        margin: 10px 0 10px 0;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .icons ul li a img {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    /* -------- banner1 --------- */
+
+    .banner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textbanner1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* -------- slider1 --------- */
+
+    .swiper-slide img {
+
+        width: 140%;
+
+    }
+
+    /* -------- banner2 --------- */
+
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner2 img {
+        width: 100%;
+    }
+
+    /* -------- infotext --------- */
+
+    .infotext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0 20px 10px;
+    }
+
+    .info {
+        padding: 0;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    /* -------- channels --------- */
+
+    .channels1 #more {
+        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #more .chan {
+        width: 20%;
+        height: 110px;
+    }
+
+    .channels .chan {
+        width: 20%;
+        height: 110px;
+    }
+
+    /* -------- banner3 --------- */
+
+    .banner3image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner3image img {
+        margin-top: 80px;
+        width: 90%;
+
+    }
+
+    /* -------- infotext2 --------- */
+
+    .infotext2 .discover {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .infotext2 .d-items {
+        padding: 16px 20px;
+        margin: 20px 15px 20px 15px;
+        width: 45%;
+
+    }
+
+    /* -------- footer1 --------- */
+
+    .footer1 {
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* -------- footer2 --------- */
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 div a {
+        border: none;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar1 .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .navbar1 .login {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100px;
+    }
+
+    .navbar2 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .firstpart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+        margin: auto;
+        margin: 20px;
+    }
+
+    .text br {
+        display: none;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #input1,
+    #input2,
+    #input3 {
+        margin: 15px 0 15px 0;
+        width: 90%;
+    }
+
+    .check form {
+        width: 90%;
+        margin: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .check form label br {
+        display: none;
+    }
+
+    .freetry {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .freetry button {
+        margin: 10px 0 10px 0;
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .icons ul li a img {
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+    }
+
+    /* -------- banner1 --------- */
+
+    .banner1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .textbanner1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* -------- slider1 --------- */
+
+    .swiper-slide img {
+
+        width: 140%;
+
+    }
+
+    /* -------- banner2 --------- */
+
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner2 img {
+        width: 100%;
+    }
+
+    /* -------- infotext --------- */
+
+    .infotext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0 20px 10px;
+    }
+
+    .info {
+        padding: 0;
+        padding-left: 10px;
+        margin: 15px;
+    }
+
+    /* -------- channels --------- */
+
+    .channels1 #more {
+        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #more .chan {
+        width: 40%;
+        height: 110px;
+    }
+
+    .channels .chan {
+        width: 40%;
+        height: 110px;
+    }
+
+    /* -------- banner3 --------- */
+
+    .banner3image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner3image img {
+        margin-top: 80px;
+        width: 90%;
+
+    }
+
+    /* -------- infotext2 --------- */
+
+    .infotext2 .discover {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .infotext2 .d-items {
+        padding: 16px 20px;
+        margin: 20px 15px 20px 15px;
+
+    }
+
+    /* -------- footer1 --------- */
+
+    .footer1 {
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* -------- footer2 --------- */
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 div a {
+        border: none;
+    }
+
+
+}
